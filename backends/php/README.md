@@ -8,4 +8,4 @@ https://getcomposer.org/
 composer install
 
 # start the server
-composer start
+php -S localhost:3000 -t public
