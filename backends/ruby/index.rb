@@ -9,3 +9,10 @@ get '/hello' do
 
   json :message => "hello FROM THE OTHER SIDE" 
 end
+
+post '/hi' do
+  hi = params[:hi]
+  puts hi
+
+  json :message => "hi FROM THE #{hi}"
+end

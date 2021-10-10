@@ -11,6 +11,13 @@
   <h2 id="hello"></h2>
 
   <button onclick="fetchData()">Grab Hello</button>
+
+  <form action="http://localhost:3000/hi" method="post">
+    <input type="text" name="hi" id="hi">
+  <button type="submit">
+    Send to the Server
+  </button>
+  </form>
   <script src="script.js"></script>
 </body>
 </html>
