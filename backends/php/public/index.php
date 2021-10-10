@@ -16,7 +16,7 @@ $app->post('/hi', function (Request $request, Response $response, array $args) {
     $_input = $request->getParsedBody();
     $hi = $_input['hi'];
 
-    $response = $response->withJson(["message" => "hi FROM THE OTHER ".$hi]);
+    $response = $response->withJson(["message" => "hi FROM THE OTHER " . $hi]);
 
     return $response->withStatus(200);
 });
