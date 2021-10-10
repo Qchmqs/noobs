@@ -1,5 +1,5 @@
-# Install Coffee
-npm -g install coffescript
+# Install CoffeeScript
+https://coffeescript.org/
 
 # install dependencies
 npm install
